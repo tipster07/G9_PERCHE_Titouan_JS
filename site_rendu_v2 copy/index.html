@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Présentation de Koenigsegg</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-box">
+        <img src="image/Koenigsegg_logo.png" alt="Koenigsegg Logo" />
+      </div>
+      <h1>Presentation de Koenigsegg</h1>
+      <div class="sidebar">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="jesko.html">Jesko</a></li>
+          <li><a href="agera.html">Agera</a></li>
+          <li><a href="regera.html">Regera</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div>
+      <main class="portfolio">
+        <div class="filters">
+          <ul>
+            <li data-filter="all" class="active">Toute les voitures</li>
+
+            <li data-filter="jesko"><a href="jesko.html">Jesko</a></li>
+
+            <li data-filter="regera"><a href="regera.html">Regera</a></li>
+
+            <li data-filter="agera"><a href="agera.html">Agera</a></li>
+          </ul>
+        </div>
+      </main>
+      <h2 class="modele">Introduction</h2>
+      <div class="container">
+        <div class="text">
+          <p>
+            Koenigsegg est un constructeur automobile suédois fondé en 1994 par
+            Christian von Koenigsegg. La société est basée à Ängelholm en Suède.
+            Koenigsegg est spécialisé dans la fabrication de voitures de sport
+            haut de gamme. La société a produit une série de voitures
+            ultra-rapides, dont la plupart sont des voitures de sport biplace.
+          </p>
+        </div>
+        <div class="image-car">
+          <img src="image/Phantom.jpg" alt="Phantom" href="index.html" />
+        </div>
+      </div>
+      <div class="swiper mon-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-dw">
+            <p class="subtitle">Koenigsegg</p>
+            <p class="title">Regera</p>
+          </div>
+          <div class="swiper-slide slide-cd">
+            <p class="subtitle">Koenigsegg</p>
+            <p class="title">Agera</p>
+          </div>
+          <div class="swiper-slide slide-cdeb">
+            <p class="subtitle">Koenigsegg</p>
+            <p class="title">Jesko</p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <div>
+      <div class="containers">
+        <div class="text">
+          <p>Jesko</p>
+        </div>
+        <div class="image-car">
+          <a href="jesko.html">
+            <img src="image/koenigsegg-Jesko.jpg" alt="Jesko" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="text">
+          <p>Agera</p>
+        </div>
+        <div class="image-car">
+          <a href="agera.html">
+            <img src="image/Koenigsegg-Agera.jpg" alt="Agera" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="containers">
+        <div class="text">
+          <p>Regera</p>
+        </div>
+        <div class="image-car">
+          <a href="regera.html">
+            <img src="image/Face_koenigsegg_regera.jpg" alt="Regera" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="message-error">
+      <ul></ul>
+  </div>
+
+  <div class="message-success">
+      Formulaire envoyé avec succès ! 
+  </div>
+
+  <form action=" " method="post" enctype="multipart/form-data">
+      <div>
+        <h1>Comander nos voitures</h1>
+          <label for="pseudo">Pseudo</label>
+          <input type="text" name="pseudo" id="pseudo">
+      </div>
+      <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+      </div>
+      <div>
+          <label for="password">Mot de passe</label>
+          <input type="password" name="password" id="password">
+      </div>
+      <div>
+          <label for="password2">Confirmation du mot de passe</label>
+          <input type="password" name="password2" id="password2">
+      </div>
+
+      <button type="submit"> S'inscrire</button>
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js" integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>

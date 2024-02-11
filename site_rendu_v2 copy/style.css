@@ -1,0 +1,357 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0c9a8;
+}
+
+header {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2b97f67;
+}
+
+.logo-box {
+  border: 5% solid #b8987b;
+  background-color: #ebc09800;
+  border-radius: 0%;
+  padding: 1%;
+  margin-right: 1%;
+  overflow: hidden;
+}
+
+.logo-box img {
+  display: block;
+  width: auto;
+  height: 150px;
+}
+
+h1 {
+  color: #1a1a1a;
+  margin-left: 1%;
+  font-size: 3em;
+  font-family: "Outfit", sans-serif;
+  text-shadow: 1px 1px 1px #aca8a2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sidebar {
+  display: flex;
+  padding-left: 5%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.sidebar li {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-right: 1px solid #b8987b;
+}
+
+.sidebar a {
+  display: block;
+  color: #694d4d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #e0c9a8;
+}
+
+.sidebar li:last-child {
+  border-right: none;
+}
+
+.sidebar li a.active {
+  background-color: #e0c9a8;
+  color: #694d4d;
+}
+
+.sidebar li a:hover:not(.active) {
+  background-color: #e0c9a8;
+  color: #694d4d;
+}
+
+.container,
+.containers,
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-left: 10%;
+  background-color: #e0c9a8;
+  text-shadow: #000000;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.container .text,
+.containers .text {
+  background-color: #e0c9a8;
+  color: #694d4d;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 20px;
+  font-size: 190%;
+  font-family: "Outfit", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5;
+  text-shadow: 1px 1px 1px #aca8a2;
+  box-shadow: 0px 0px 10px #93774f;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.containers {
+  flex-direction: row-reverse;
+}
+
+.image-car img {
+  width: 72%;
+  height: auto;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+
+.modele {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #b8987b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0c9a8;
+  text-shadow: #000000;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.stats ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats li {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-right: 1px solid #b8987b;
+}
+
+.preview {
+  width: 100%;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-slide {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction:row;
+  font-size:  18px;
+  padding-left: 0 ;
+}
+
+.subtitle {
+  letter-spacing:  3px;
+  font-size: 24px;
+  color: white;
+}
+.title {
+  font-weight: bold;
+  font-size: 72px;
+  color: white;
+}
+
+.slide-dw {
+  background-image: url('./image/Face_koenigsegg_regera.jpg');
+  background-size:cover;
+  display: flex;
+  padding: 0;
+}
+.slide-cd {
+  background-image: url('./image/Koenigsegg-Agera.jpg');
+  background-size: cover;
+  display: flex;
+  padding: 0;
+}
+.slide-cdeb {
+  background-image: url('./image/koenigsegg-Jesko.jpg');
+  background-size: cover;
+  display: flex;
+  padding: 0;
+}
+.portfolio {
+  padding:80px 40px;
+  }
+   
+  .portfolio-elements {  
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  gap:50px;
+  padding:50px 0 !important;
+  
+  }
+  .card {
+   width:30%;
+  }
+   
+   .card-header {   
+  padding:20px 40px;
+  }
+   
+   .card-title {   
+  text-transform:capitalize;   
+  font-size:24px;   
+  font-weight:bold;   
+  color:#222D3B;
+  }
+   
+   .card-axe {   
+  font-size:14px;   
+  color:#87878a;   
+  margin-top:6px;
+  }
+    
+  .card img {   
+  display:block;   
+  width:100%;   
+  height:300px;   
+  object-fit:cover;
+    }
+  
+  .filters{   
+  max-width:1200px;   
+  margin:0 auto;
+    }
+   
+   .filters ul{   
+  display:flex;   
+  gap:20px;
+    }
+   
+  .filters li{   
+  cursor:pointer;   
+  color:#F6F8FA;   
+  background-color:orangered;   
+  padding:10px 20px;   
+  list-style:none;
+    }
+   
+  .filters li.active{   
+  background-color:orange;
+    }
+  
+    *{
+      font-size: 16px;
+      font-family: sans-serif;
+      margin: 0;
+    }
+    
+    body{
+      width: 80%;
+      margin: 80px auto;
+    }
+    
+    form {
+      border: 1px solid grey  ;
+    }
+    
+    form > div {
+      margin: 30px 20px ;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    
+    input{
+      height: 20px;
+      width: 40%;
+    }
+    
+    button {
+      margin-left: 20px;
+      margin-bottom: 30px;
+      padding: 10px 32px;
+      cursor: pointer;
+      
+    }
+    
+    .message-error {
+      border: 1px solid rgb(255, 114, 114);
+      color: rgb(255, 114, 114);;
+      background-color: brown;
+      padding: 16px 32px;
+      margin-bottom:20px ;
+      display: none;
+    }
+    .message-error.visible{
+      display: block;
+    }
+    
+    .message-success {
+      border: 1px solid green;
+      color: green;
+      background-color: rgba(113, 212, 0, 0.4);
+      padding: 16px 32px;
+      margin-bottom:20px ;
+      display: none;
+    }
+    
+    .message-success.visible{
+      display: block;
+    }
+    
+    .success{
+      border: 1px solid green;
+      background-color: rgba(113, 212, 0, 0.4);
+    }
